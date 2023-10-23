@@ -1,0 +1,183 @@
+/* UTILITY */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.container-sm{
+    max-width: 991px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.border-column{
+    border: dotted black;
+ }
+
+.height-50{
+    height: 50px;
+}
+
+.height-400px{
+    height: 400px;
+}
+
+.margin-container{
+    margin: 0 auto;
+}
+
+.height-500px{
+    height: 500px;
+}
+
+.height-800px{
+    height: 800px;
+}
+
+/* BG */
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-darkblue{
+    background-color: darkblue;
+    
+}
+.bg-pink{
+    background-color: rgb(238, 121, 203);
+}
+
+.bg-liteblue{
+    background-color: rgb(41, 133, 238);
+}
+
+.bg-litepink{
+    background-color: pink;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-grey{
+    background-color: rgb(186, 192, 197);
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-mag{
+    background-color: rgb(216, 123, 151);
+}
+
+.bg-litegreen{
+    background-color: rgb(59, 197, 190);
+}
+
+
+
+.bg-stagno{
+    background-color: aquamarine;
+}
+
+/* HEADER */
+header{
+    background-color: lightblue ;
+    height: 75px;
+    padding: 10px 0;
+}
+
+.col-15{
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.col-70{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.col-100{
+    width: 100%;
+   
+
+}
+
+/* MAIN */
+
+.padding-section{
+    padding: 30px 0;
+}
+
+
+.col-30{
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* Footer */
+
+
+footer{
+    background-color: rgb(34, 32, 32);
+    padding-top: 10px;
+
+}
+.col-17{
+    width: 17%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.col-32{
+    width: 32%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.border-columnwhite{
+    border: dotted rgb(255, 255, 255);
+ }
+
+hr{
+    height: 1px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.col-Logo{
+    width: 10%;
+    display: flex;
+}
+
+.col-button{
+    width: 10%;
+    display: flex;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+
+
