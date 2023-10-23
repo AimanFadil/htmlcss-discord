@@ -1,6 +1,6 @@
 /* UTILITY */
 *{
-    margin: 0;
+    
     padding: 0;
     box-sizing: border-box;
 }
@@ -10,9 +10,12 @@
 }
 
 .container-sm{
-    max-width: 991px;
+    max-width: 760px;
 }
 
+.container-sms{
+    max-width: 1005px;
+}
 .row{
     width: 100%;
     display: flex;
@@ -22,26 +25,10 @@
     border: dotted black;
  }
 
-.height-50{
-    height: 50px;
-}
-
-.height-400px{
-    height: 400px;
-}
 
 .margin-container{
-    margin: 0 auto;
+    margin: 5px auto;
 }
-
-.height-500px{
-    height: 500px;
-}
-
-.height-800px{
-    height: 800px;
-}
-
 /* BG */
 .bg-orange{
     background-color: orange;
@@ -68,7 +55,7 @@
 }
 
 .bg-grey{
-    background-color: rgb(186, 192, 197);
+    background-color: #e8edea;
 }
 
 .bg-green{
@@ -90,10 +77,53 @@
 }
 
 /* HEADER */
+.logo-img{
+    background-image: url(.img/logo.svg);
+}
+
+.space{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.bluebutton{
+    border-radius: 15px;
+    background-color: rgba(36, 108, 216, 0.733);
+    border: none;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+}
+.whitebutton{
+    border-radius: 15px;
+    background-color: white;
+    border: none;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+.blackbutton{
+    border-radius: 15px;
+    background-color: rgb(27, 26, 26);
+    border: none;
+    padding: 8px;
+    color: white;
+        
+    margin-left: 30px;
+    
+
+   
+}
+
+
 header{
-    background-color: lightblue ;
+    background-color: rgb(22, 99, 216) ;
     height: 75px;
     padding: 10px 0;
+    
+    
 }
 
 .col-15{
@@ -105,18 +135,74 @@ header{
 
 .col-70{
     width: 70%;
-    align-items: center;
-    justify-content: center;
     display: flex;
+    align-items: center;
+    
 }
 
 .col-100{
     width: 100%;
-   
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 /* MAIN */
+
+.center{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.wave{
+    width: 100%;
+    display: flex;
+    filter: invert(94%) sepia(8%) saturate(898%) hue-rotate(135deg) brightness(123%) contrast(86%);
+    
+}
+
+.p-white{
+    color: white;
+    font-size: large;
+    
+    text-align: center;
+    display: flex;
+    word-spacing: 3px;
+}
+
+p.black{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    word-spacing: 3px;
+
+}
+
+
+.h1black{
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    text-align: left;
+    padding-top: 15px;
+    
+}
+.h1white{
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    
+}
+
+.back-img{
+    background-image: url(img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .padding-section{
     padding: 30px 0;
@@ -125,8 +211,7 @@ header{
 
 .col-30{
     width: 30%;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     display: flex;
 }
 
